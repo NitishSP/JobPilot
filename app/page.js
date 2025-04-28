@@ -28,7 +28,11 @@ export default function LandingPage() {
       <div className="grid-background"></div>
 
       {/* Hero Section */}
+      <div className="overflow-hidden">
+
       <HeroSection />
+      </div>
+
 
       {/* Features Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
