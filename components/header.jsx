@@ -24,14 +24,16 @@ export default async function Header() {
 
   return (
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
-      <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
+      <nav className="w-full max-w-screen-2xl mx-auto px-4 h-16 md:h-20 flex items-center justify-between">
+
+        {/* Logo Section */}
         <Link href="/">
           <Image
             src={"/Logo2.png"}
             alt="jobPilot Logo"
             width={200}
             height={60}
-            className="h-12 py-1 w-auto object-contain"
+            className="h-12 md:h-16 py-2 w-auto object-contain"
           />
         </Link>
 

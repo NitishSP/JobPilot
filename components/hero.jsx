@@ -31,24 +31,24 @@ const HeroSection = () => {
       <div className="space-y-6 text-center">
         <div className="space-y-6 mx-auto">
           <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
-            Your AI Career Coach for
+            Your AI Career Partner
             <br />
-            Professional Success
+            Dream Job With AI
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-            Advance your career with personalized guidance, interview prep, and
-            AI-powered tools for job success.
+            From resume to interview, JobPilot guides you every step of the way.
+            Job with AI-crafted resumes, mock interviews, and market insights.
           </p>
         </div>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
             <Button size="lg" className="px-8">
-              Get Started
+              Get Started Free
             </Button>
           </Link>
           <Link href="https://www.youtube.com/roadsidecoder">
             <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
+              See How It Works
             </Button>
           </Link>
         </div>
